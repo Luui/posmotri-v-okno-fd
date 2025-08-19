@@ -50,8 +50,6 @@ ol {
   background-color: #D9D9D9;
 }
 
-/* Скрываем */
-
 .visually-hidden {
   position: absolute;
   inline-size: 1px;
