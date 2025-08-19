@@ -240,6 +240,10 @@ ol {
   outline: 1px solid #fff;
 }
 
+.search-form__checkbox-list .search-form__label {
+  cursor: pointer;
+}
+
 .search-form__checkbox:checked:checked + 
 .search-form__pseudo-checkbox::after {
   display: inline-block;
@@ -307,4 +311,8 @@ ol {
   overflow: hidden;
   text-overflow: ellipsis;
   width: 100%;
+}
+
+.content__card-link:active {
+  background-color: #545050;
 }
