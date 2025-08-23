@@ -69,6 +69,12 @@ ol {
   gap: 30px;
 }
 
+.content__list {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
 .content__list-container {
   position: relative;
   height: 298px;
@@ -152,7 +158,6 @@ ol {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  margin-bottom: 30px;
 }
 
 .content__video-card-description-container {
