@@ -77,6 +77,9 @@ ol {
 
 .content__list-container {
   position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
   height: 298px;
   overflow-y: auto;
 }
@@ -130,11 +133,11 @@ ol {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  padding-bottom: 5px;
   color: #fff;
   font-weight: 400;
   font-size: 18px;
   line-height: 21.6px;
-  padding-bottom: 5px;
 }
 
 .search-form__textfield:focus-visible {
